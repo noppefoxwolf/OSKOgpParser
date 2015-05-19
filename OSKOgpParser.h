@@ -12,6 +12,7 @@
 + (void)getOgpElement:(NSURL*)url
               success:(void(^)(OSKOgpObject*object))success
               failure:(void(^)(NSError*error))failure;
++ (OSKOgpObject*)getOgpElementWithHTML:(NSString*)html;
 @end
 @interface OSKOgpObject : NSObject
 @end

@@ -40,6 +40,12 @@
                                success(ogp);
                            }];
 }
+
++ (OSKOgpObject*)getOgpElementWithHTML:(NSString*)html{
+    return [[OSKOgpObject alloc] initWithHTMLString:html];
+}
+
+
 @end
 
 @implementation OSKOgpObject
